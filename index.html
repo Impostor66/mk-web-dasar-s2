@@ -3,21 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome to My Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1 align="center">TEKNIK INFORMATIKA</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="biodata.html">Biodata Diri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobi.html">Hobi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <P><h2><font color="blue">Data diri</font></h2></P>
-<p>
-    <ul>
-        <li> <font color="blue">Nama        : T. Hafidhul Furqan</font></li>
-        <li> <font color="yellow">NIM         : 2023573010059</font></li>
-        <li> <font color="green">Jurusan     : Teknologi Informasi dan Komputer</font></li>
-        <li> <font color="purple">Prodi       : Teknik Informatika</font></li>
-        <li> <font color="black">Alamat      : Geurugok, Kec.Keude Lapang, Kab.Bireuen</font></li>
-    </ul>
-</p>
+    <!-- Loading Animation Section -->
+    <div id="page">
+        <div id="container">
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="h3"><a class="btn " href="#" role="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">TAP HERE </a></a></div>
+        </div>
+    </div>
 
+    <!-- Welcome Section -->
+    <div class="container mt-5">
+        <!-- Additional content can be added here -->
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
